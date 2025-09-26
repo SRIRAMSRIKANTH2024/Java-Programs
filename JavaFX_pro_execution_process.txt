@@ -1,0 +1,70 @@
+     JavaFX program execution procedure	
+
+    0.package line in code must notable one 
+       
+ eg1:package org.mano.example; //we must create myprofolder/src/org/mano/example and src&out inside the myproject folder right
+ eg2:package org.sri.ram;  // we must create myflder/src/org/sri/ram   and src & out inside the myfldr
+       
+    eg1.   JavaFXProject/
+	    └── src/
+    	       └── org/
+        	  └── mano/
+            	     └── example/
+                	 └── LayoutDemo.java
+    eg2. JavaFXProject/
+	    └── src/
+    	       └── org/
+        	  └── sri/
+            	     └── ram/
+                	 └── LayoutDemo.java
+
+    2.Execution 
+               cmd : cd D:\JavaFXProject
+
+   3.Create Directory out in side the JavaFXProjext 
+
+         JavaFXProject/
+
+	       └── out  goto last eg1 or eg2 for understanding
+               └── src/
+    	           └── org/
+        	      └── mano/
+            	         └── example/
+                	    └── LayoutDemo.java
+ 4.Compile eg1:cmd : javac -d out src/org/mano/example/LayoutDemo.java
+           eg2:cmd : javac -d out src/org/sri/ram/LayoutDemo.java
+
+ 5.Run eg2:cmd : java -cp out org.mano.example.LayoutDemo
+       eg2:cmd : java -cp out org.sri.ram.LayoutDemo
+
+ 6.Final  Structure of your project
+     
+eg1.
+JavaFXProject/
+├── src/
+│   └── org/
+│       └── mano/
+│           └── example/
+│               └── LayoutDemo.java
+└── out/
+    └── org/
+        └── mano/
+            └── example/
+                └── LayoutDemo.class
+
+eg2.
+eg1.JavaFXProject/
+├── src/
+│   └── org/
+│       └── sri/
+│           └── ram/
+│               └── LayoutDemo.java
+└── out/
+    └── org/
+        └── sri/
+            └── ram/
+                └── LayoutDemo.class
+
+ 
+
+            
